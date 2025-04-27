@@ -1,5 +1,5 @@
 # A predictive model I made in R with the Twitter API on november 6 2016 for the US Election (Donal J. Trump Vs. Hilary Clinton) \
-\
+
 ### Sentiment analysis on twitter around 1:00 pm that day \
 <img width="1440" alt="Election analysis" src="https://github.com/user-attachments/assets/d4660676-651b-4319-9397-f6d9b5691c02" /> \
 
