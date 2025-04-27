@@ -25,10 +25,10 @@ accessURL <- 'https://api.twitter.com/oauth/access_token'
 authURL <- 'https://api.twitter.com/oauth/authorize'
 
 ### Twitter Application
-consumerKey="JhgqXWTJcUUIanhL5PGZndtgt"
-consumerSecret="JPyI4cm3yEtSPNODKSefV58SmjiS3ybq8xav3D80F0GDd0jCpK"
-accesstoken="4801685942-YJ0itSN5kTUWtAI8bL4DR2R6dC9TYwcjFMHIiL8"
-accesssecret="ZCAKUxqAYAeQizVHAszTIHkYf4KjL8e9K2FTjEnWspaJd"
+consumerKey="***********************************************************************"
+consumerSecret="***********************************************************************"
+accesstoken="***********************************************************************"
+accesssecret="***********************************************************************"
 
 Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          consumerSecret=consumerSecret,
@@ -52,7 +52,7 @@ setup_twitter_oauth(consumer_key=consumerKey, consumer_secret=consumerSecret, ac
 
 # Harvest some tweets
 
-some_tweets = searchTwitter("india fintech", n=1000, since = "2016-01-01", lang= "en")
+some_tweets = searchTwitter("US Election", n=50000, since = "2016-11-06", lang= "en")
 
 # Explore Tweets
 
@@ -100,7 +100,7 @@ some_txt6 <- tm_map(some_txt6, stripWhitespace)
 
 pal <- brewer.pal(12,"Dark2")
 
-wordcloud(some_txt6, min.freq = 5,  max.words = Inf, width=1000, height =1000,  random.order = FALSE, color=pal)
+wordcloud(some_txt6, min.freq = 5,  max.words = Inf, width=50000, height =50000,  random.order = FALSE, color=pal)
 
 # Sentiment Analysis
 
