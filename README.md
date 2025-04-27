@@ -12,6 +12,6 @@
 
 ##### Prediction
 Clearly, we see that overall, that day around 1:00, roughly 7 hours before the NY Times comfirmed the winner, I was able to state with a rather high confidence that Trump was going to win
-to win the election considering that the polarity of confidence (emotion) was about twice as much for Trump vs. Clinton 
+to win the election considering that the polarity of surprise (emotion) was about twice as much for Trump vs. Clinton. 
 /author{Dominique S. Loyer}
 /date[November 6 2016}
